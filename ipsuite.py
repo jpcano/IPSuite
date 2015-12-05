@@ -20,7 +20,7 @@
 
 import ping
 
-LISTA_IPS = ['8.8.8.8',
+LISTA_IPS = ['8.8.8.888',
              '8.8.8.81',
              '8.8.2.8',
              '8.8.8.8',
@@ -44,3 +44,6 @@ def ipcaida (ip):
 for i in LISTA_IPS:
     if ipcaida(i) == True:
         print('La maquina cuya ip es ' + i + ' esta caida')
+
+
+#Hacer una funcion que devuelva True cuando una ip que se le pasa como parametro es correcta y false en caso contrario
